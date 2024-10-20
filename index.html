@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dipi</title>
+    <style>
+        body {
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .circle-container {
+            position: relative;
+            width: 800px;
+            height: 800px;
+        }
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 60px;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 5px #000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        .circle-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+        }
+        /* Posizionamento circolare */
+        .img1 { top: 0; left: 50%; transform: translateX(-50%); }
+        .img2 { top: 15%; left: 85%; transform: translate(-50%, -50%); }
+        .img3 { top: 50%; left: 100%; transform: translate(-50%, -50%); }
+        .img4 { top: 85%; left: 85%; transform: translate(-50%, -50%); }
+        .img5 { top: 100%; left: 50%; transform: translate(-50%, -100%); }
+        .img6 { top: 85%; left: 15%; transform: translate(-50%, -50%); }
+        .img7 { top: 50%; left: 0; transform: translate(-50%, -50%); }
+        .img8 { top: 15%; left: 15%; transform: translate(-50%, -50%); }
+    </style>
+</head>
+<body>
+
+    <div class="circle-container">
+        <h1>HAPPY BIRTHDAY DIPI</h1>
+        <img src="https://loremflickr.com/150/150/cat" alt="Gatto 1" class="img1">
+        <img src="https://loremflickr.com/150/150/cat" alt="Gatto 2" class="img2">
+        <img src="https://loremflickr.com/150/150/fireworks" alt="Fuochi d'artificio 1" class="img3">
+        <img src="https://loremflickr.com/150/150/fireworks" alt="Fuochi d'artificio 2" class="img4">
+        <img src="https://loremflickr.com/150/150/cat" alt="Gatto 3" class="img5">
+        <img src="https://loremflickr.com/150/150/cat" alt="Gatto 4" class="img6">
+        <img src="https://loremflickr.com/150/150/fireworks" alt="Fuochi d'artificio 3" class="img7">
+        <img src="https://loremflickr.com/150/150/fireworks" alt="Fuochi d'artificio 4" class="img8">
+    </div>
+
+</body>
+</html>
